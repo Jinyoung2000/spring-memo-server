@@ -1,6 +1,6 @@
 package com.jinyoung.memoserver.controller
 
-import com.jinyoung.memoserver.dto.CreateMemoDto
+import com.jinyoung.memoserver.dto.Memo.CreateMemoDto
 import com.jinyoung.memoserver.entity.Memo
 import com.jinyoung.memoserver.service.MemoService
 import org.springframework.web.bind.annotation.*

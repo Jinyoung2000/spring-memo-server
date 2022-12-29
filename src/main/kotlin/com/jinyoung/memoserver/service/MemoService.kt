@@ -1,6 +1,6 @@
 package com.jinyoung.memoserver.service
 
-import com.jinyoung.memoserver.dto.CreateMemoDto
+import com.jinyoung.memoserver.dto.Memo.CreateMemoDto
 import com.jinyoung.memoserver.entity.Memo
 import com.jinyoung.memoserver.repository.MemoRepository
 import org.springframework.stereotype.Service
