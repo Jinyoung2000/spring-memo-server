@@ -16,4 +16,8 @@ class MemoService(private val memoRepository: MemoRepository) {
             return memoRepository.save(Memo(title, content))
         }
     }
+
+    fun deleteMemoById(id: Long) {
+        return memoRepository.deleteById(id)
+    }
 }

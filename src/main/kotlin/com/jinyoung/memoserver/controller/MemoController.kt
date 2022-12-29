@@ -16,4 +16,9 @@ class MemoController(private val memoService: MemoService) {
     fun createMemo(@RequestBody body: CreateMemoDto): Memo {
         return memoService.createMemo(body)
     }
+
+    @DeleteMapping("/memos/{memoId}")
+    fun deleteMemo(@PathVariable memoId: Long) {
+        return memoService.deleteMemoById(memoId)
+    }
 }
